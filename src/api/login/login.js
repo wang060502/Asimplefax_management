@@ -32,3 +32,18 @@ export const PostUserList = (username, password, email, telephone) => {
     username, password, email, telephone
   })
 }
+
+// 已注册用户数量
+export const SeluserNumber = () => {
+  return request.get('/api/counts/all/users')
+}
+
+// 在线用户数量
+export const SelKeepalive = () => {
+  return request.get('/api/counts/live/users')
+}
+
+// 获取管理员列表
+export const getAdminlist = () => {
+  return request.get('/user/list/admins')
+}

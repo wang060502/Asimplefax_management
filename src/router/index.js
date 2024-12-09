@@ -44,6 +44,10 @@ const router = new VueRouter({
         //   component: () => import('@/views/user/usercomments.vue') // 用户留言列表
         // },
         {
+          path: '/analytics',
+          component: () => import('@/views/analytics/analytics.vue') // 数据分析
+        },
+        {
           path: '/articles',
           component: () => import('@/views/articles/articles.vue') // 软文管理
         },

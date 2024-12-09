@@ -11,6 +11,7 @@
     "@wangeditor/editor-for-vue": "^1.0.2",
     "axios": "^1.7.7",
     "core-js": "^3.8.3",
+    "echarts": "^5.5.1",
     "element-ui": "^2.15.14",
     "js-cookie": "^3.0.5",
     "vue": "^2.6.14",
